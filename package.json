@@ -1,0 +1,13 @@
+{
+    "name": "monorepo-playground",
+    "private": true,
+    "scripts": {
+      "start:ui": "cd ui/resume-web && npm start",
+      "start:service": "cd service/resume-service && node index.js",
+      "start": "concurrently \"npm run start:service\" \"npm run start:ui\""
+    },
+    "devDependencies": {
+      "concurrently": "^8.0.1"
+    }
+  }
+  
