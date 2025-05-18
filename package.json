@@ -2,12 +2,14 @@
     "name": "monorepo-playground",
     "private": true,
     "scripts": {
-      "start:ui": "cd ui/resume-web && npm start",
-      "start:service": "cd service/resume-service && node index.js",
-      "start": "concurrently \"npm run start:service\" \"npm run start:ui\""
+        "start:ui": "cd ui/resume-web && npm start",
+        "start:service": "cd service/resume-service && node index.js",
+        "start": "concurrently \"npm run start:service\" \"npm run start:ui\""
     },
     "devDependencies": {
-      "concurrently": "^8.0.1"
+        "concurrently": "^8.0.1"
+    },
+    "dependencies": {
+        "@angular/cli": "^19.2.12"
     }
-  }
-  
+}
