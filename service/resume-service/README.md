@@ -56,11 +56,23 @@ http://localhost:3000/api/resume
 
 You should see the JSON content of your `resume.json` file.
 
----
 
-## Notes
+### 4. Run Docker build
+```
+# Build the Docker image
+docker build -t resume-service .
 
-- The service includes basic CORS support allowing access from any origin (for development only).
-- Make sure your `resume.json` in the `data` folder contains valid JSON.
+# Run the container
+docker run -d -p 3000:3000 resume-service
+```
+The service will be available at: http://localhost:3000/api/resume
 
+⚙️ Environment Variables
+
+You can customize the port (or any other setting) by passing the environment variable(s):
+
+```
+docker run -d -p 8080:8080 -e PORT=8080 resume-service
+
+```
 ---
