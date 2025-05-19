@@ -32,6 +32,17 @@
           </li>
         </ul>
       </div>
+
+      <div *ngIf="resume">
+        <h1>{{ resume.name }}</h1>
+        <h2>{{ resume.title }}</h2>
+        <p>{{ resume.summary }}</p>
+        <p>Email: {{ resume.email }}</p>
+        <p>Website: <a [href]="resume.website" target="_blank">{{ resume.website }}</a></p>
+        <p>LinkedIn: <a [href]="resume.linkedin" target="_blank">{{ resume.linkedin }}</a></p>
+      </div>
+
+
     </div>
   </div>
   
