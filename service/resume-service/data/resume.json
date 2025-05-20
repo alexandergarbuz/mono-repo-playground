@@ -4,6 +4,174 @@
     "email": "alexander.garbuz@mail.com",
     "website": "https://www.garbuz.com",
     "linkedin": "https://www.linkedin.com/in/garbuz/",
-    "summary": "Senior IT professional with more than 25 years of combined software development, leadership and management experience."
-}
-  
+    "github": "https://www.github.com/alexandergarbuz ",
+    "summary": "Senior IT professional with more than 25 years of combined software development, leadership and management experience.",
+    "workExperience": [
+      {
+        "name": "Ford",
+        "title": "Sr. Java Developer / Consultant",
+        "startDate": "8/2021",
+        "endDate": "4/2024",
+        "responsibilities": [
+          "Developed and maintained a number of micro-services using Spring Boot and Oracle. Helped the team to migrate from ADFS (Active Directory Federation Service) to Azure AD; Participated in building POC for deploying services to GCP (Google Could Platform) utilizing Google Apigee platform as abstraction layer to provide access to backend service. Used S3 SDK to access and store objects in AWS storage;",
+          "Led successful adaptation of Agile development practices such as test driven development, pair programming, iterative development, and continuous integration. Used GitHub, Jenkins, and Gradle to implement continuous integration/continues deployment environment. Utilized Checkmarx and FOSSA to ensure code quality and security compliance. Developed a suite of automated functional/acceptance tests using Postman. Built performance/load tests using Apache JMeter. Ensured targeted test coverage using JaCoCo code coverage reports;",
+          "Maintained legacy Java web application utilizing Servlets, Velocity templates, jQuery, DB2 and IBM WebSphere Liberty server;",
+          "Actively participated in project planning and management, created estimates, and provided status reports to management. Planned, organized and led meetings and training sessions. Mentored less experienced developers, conducted design and code reviews, performed analysis for senior management;",
+          "Provided on-call support;"
+        ],
+        "achievements": [
+          "Built a number of automated performance tests using JMeter that helped monitor application performance after series of enhancements;",
+          "Trained a number of team members on how to follow agile practices;"
+        ]
+      },
+      {
+        "name": "CDW",
+        "title": "Sr. Java Developer",
+        "startDate": "9/2015",
+        "endDate": "6/2021",
+        "responsibilities": [
+          "Worked on a number of projects delivering both new functionality as well as providing maintenance and support for the existing applications;",
+          "Helped define technical requirements and estimated assigned tasks. Used JPA and Hibernate to store and retrieve information from MS SQL Server databases. Used Prime Faces JSF implementation to build responsive UI layer for web based applications.",
+          "Developed a number of RESTful web services to share information between multiple applications and platforms (web and mobile);",
+          "Utilized Agile development practices such as test driven development, iterative development, continuous integration. Designed and developed functional testing framework using Arquillian and Selenium. Used Maven and Jenkins to set up continuous integration environment builds. Ensured targeted test coverage using JaCoCo  code coverage reports integrated into Maven builds;",
+          "Worked closely with the product owners and customers and participated in all phases of the project delivery starting with the project initiation, requirements gathering and analysis, estimating, as well as developing and testing of the delivered functionality;",
+          "Participated in the hiring process, perform initial technical screening on the phone and conduct in-person interviews;",
+          "Worked with contractors, conducted code reviews, mentored less experienced developers; ",
+          "Provided on-call support for the clients. Used DynaTrace to document and troubleshoot issues with the applications we supported."
+        ],
+        "achievements": [
+          "Built automated client presentation builder application for the sales team;",
+          "Redesigned existing functional testing framework  using Arquillian, Selenium WebDriver, and JUnit to simplify the process of writing functional tests by testers who may not have solid Java development skills;"
+        ]
+      },
+      {
+        "name": "Edgewood College",
+        "title": "Instructor (Part-time)",
+        "startDate": "5/2006",
+        "endDate": "7/2019",
+        "responsibilities": [
+          "Taught Project Management, Advanced Software Development with Java and IT Leadership classes for continuing education students.",
+          "Fully planned and developed coursework materials including planning core learning objectives, key class deliverables, grading system, class outline, homework assignments, and topics for class room discussions;",
+          "Performed homework evaluation, assigned grades and provided detailed feedback to students."
+        ],
+        "achievements": [
+          "Taught Project Management, Advanced Software Development with Java and IT Leadership classes for continuing education students.",
+          "Fully planned and developed coursework materials including planning core learning objectives, key class deliverables, grading system, class outline, homework assignments, and topics for class room discussions;",
+          "Performed homework evaluation, assigned grades and provided detailed feedback to students;"
+        ]
+      },
+      {
+        "name": "American Family Insurance",
+        "title": "Technical Lead / Consultant",
+        "startDate": "2/2013",
+        "endDate": "9/2015",
+        "responsibilities": [
+          "Led technical implementation of a large development project. Worked closely with the project manager and participated in all phases of the project delivery starting with the project initiation, requirements gathering and analysis, work planning and scheduling, as well as monitoring and controlling of the project work;",
+          "Reviewed technical requirements, provided estimates, facilitated issue resolution, coordinated work for developers, and ensured that software development best practices were followed. Conducted code reviews, mentored less experienced developers;",
+          "Helped troubleshoot issues related to Guidewire PolicyCenter environment configuration and work with various teams to ensure prompt resolution;",
+          "Coordinated work with outside vendors for security assessments and load and penetration testing."
+        ],
+        "achievements": [
+          "Developed a new web application testing framework utilizing Selenium, WebDriver, Maven, and Spring frameworks to simplify the process of writing functional tests by testers who may not have solid Java development skills."
+        ]
+      },
+      {
+        "name": "CPM HealthGrades",
+        "title": "Director, Database Development, Project Management",
+        "startDate": "11/2010",
+        "endDate": "10/2012",
+        "responsibilities": [
+          "Daily management of the database development team that consistent of 22 database developers, analysts, and project managers including: hiring, training, promoting, and taking disciplinary actions when necessary;",
+          "Performing analysis of the existing processes and implementing incremental process improvements including introduction of new processes, new org structure;",
+          "Managing various projects including: creating project charters, developing project plans and schedules, managing cross-department project teams, managing project risks and issues, and providing senior management with weekly status reports."
+        ],
+        "achievements": [
+          "Grew the team from 8 database developers to 22 developers, analysts, and project managers;",
+          "Introduced a number of processes that supported the growth an allowed for the 100% increase in the number of client databases built in a year;",
+          "Designed and developed a new project management framework that helped establishing a formal Project Management methodology and building a fully functioning project management team;",
+          "Developed new employee training program for project coordinators.",
+          "Designed a set of templates that allowed for high degree of standardization and unification among most of the projects that we delivered to the client. These included a standardized project plan template and standard agenda templates for all of the core meetings and follow up email messages;",
+          "Helped managing the integration between the two offices (Madison and Denver).  Identified the road blocks and acted as a liaison between senior managers in both offices facilitating the process;",
+          "Personally managed a number of internal and client facing projects from beginning to end;"
+        ]
+      },
+      {
+        "name": "Amazon",
+        "title": "Software Developer",
+        "startDate": "5/2007",
+        "endDate": "9/2010",
+        "responsibilities": [
+          "Worked for a wholly owned Amazon.com subsidiary (ShopBop). Successfully delivered multiple projects performing various roles including technical lead, java architect, project manager, and QA testing lead;",
+          "Participated in requirements gathering, initial analysis and project planning;",
+          "Created project plans; defined project schedules; managed project risks and issues; led project status meetings; and handled the internal communication with the senior management."
+        ],
+        "achievements": [
+          "Led successful implementation of multiple projects working with various business clients and ensured the quality of the delivered product through establishing the development guidelines and conducting regular code reviews.",
+          "Helped establishing on-call support processes and infrastructure including defining SLAs for various types of issues.",
+          "Designed new architecture for Shopbop.com web site utilizing WebWork and Spring frameworks. Helped integrating web site with Blue Martini e-commerce software. Introduced automated build and continuous integration environments using Maven and Continuum.",
+          "Helped establishing testing processes and procedures for QA team including setting up automated test environment, integrating it with build process, and trained testers on how to write automated functional tests using IBM Rational Functional Tester (RFT). Fully designed a new framework for writing automated functional tests based on JUnit and Selenium that reduced the duration of QA test cycle from several days to several hours"
+        ]
+      },
+      {
+        "name": "TDS Telecom",
+        "title": "Technical Lead / Consutant (3 month contract)",
+        "startDate": "12/2006",
+        "endDate": "4/2007",
+        "responsibilities": [
+          "This was a short-term contract and during this time I was helping Revenue Products and Services team at TDS as a consultant. I was leading a cross-functional team of eight software developers and system administrators."
+        ],
+        "achievements": [
+          "Led successful implementation of the Day Light Saving Time (DST) conversion in 2007 when the new date of April 1st for switching to DST was established by federal government;",
+          "Led the implementation of new development environment for the agile Java development process utilizing Maven and Continuum as continuous integration environment;"
+        ]
+      },
+      {
+        "name": "Great Lakes Educational Loan Services Inc",
+        "title": "Sr. Programmer/Analyst",
+        "startDate": "9/2005",
+        "endDate": "12/2006",
+        "responsibilities": [
+          "As a senior team member I was working on mission critical projects doing both development and mentoring less experienced team members on various aspects of software development process. I was also actively involved with the enterprise architectural committee and helped with identifying the strategic direction for the IS department, creating the company wide standards and development guidelines as well as performing analyses on various subjects and presented the results for senior management. In addition to that I also planned, organized, and lead a number of trainings and seminars on different aspects of software development process."
+        ],
+        "achievements": [
+          "Led the implementation of a unified build process in combination with iterative and incremental development practices resulting in over $500 000 annual savings",
+          "Pioneered the test-driven development methodology, which allowed reducing the development time by 30% and a single deployment cost by 50%"
+        ]
+      },
+      {
+        "name": "Isthmus Group Inc",
+        "title": "Java Developer / Consultant",
+        "startDate": "12/2004",
+        "endDate": "8/2005",
+        "responsibilities": [
+          "As a member of internal development team I worked on a number of development projects for various clients utilizing Java based technologies"
+        ],
+        "achievements": [
+          "Led an integration project for IBM Web Sphere Portal and Liferay portal server with custom content management module. Developed custom portlets, themes, and skins",
+          "Planned, organized, and led the development initiative to update the internally built rapid application development framework and replace JDBC persistence layer with open source Apache iBATIS framework that minimized the maintenance cost and significantly reduced time-to-market for the new projects"
+        ]
+      },
+      {
+        "name": "US Cellular",
+        "title": "Programmer Analyst",
+        "startDate": "2/2002",
+        "endDate": "12/2004",
+        "responsibilities": [
+          "As the only team member with strong web development experience I fully designed and developed multiple intranet based web sites from the ground up."
+        ],
+        "achievements": []
+      },
+      {
+        "name": "Aesention",
+        "title": "Web Developer",
+        "startDate": "11/2000",
+        "endDate": "2/2002",
+        "responsibilities": [
+          "As a lead developer worked on multiple projects building e-commerce web applications using various server-side scripting languages and RDBMS."
+        ],
+        "achievements": [
+          "Designed and developed a content management system for the rapid web site development reducing development time by 70%"
+        ]
+      }
+    ]
+  }
