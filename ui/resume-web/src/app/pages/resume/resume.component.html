@@ -3,8 +3,11 @@
     <div class="row justify-content-center">
       <div class="col-md-8 text-justify">
 
-
-      <div *ngIf="resume">
+      <div *ngIf="loading" class="spinner-container text-center">
+        <i class="fa fa-spinner fa-spin fa-3x"></i>
+        <h1>Loading data...</h1>
+      </div>
+      <div *ngIf="!loading && resume">
         <h1 class="text-center">{{ resume.name }}</h1>
         <h3 class="text-center">{{ resume.title }}</h3>
         <p class="text-justify">{{ resume.summary }}</p>
@@ -21,13 +24,13 @@
         <div *ngFor="let job of resume.workExperience">
           <h4>{{ job.title }} at {{ job.name }}</h4>
           <p>{{ job.startDate }} - {{ job.endDate }}</p>
-          <ul>
-            <li *ngFor="let responsibility of job.responsibilities">{{ responsibility }}</li>
-          </ul>
-          <p><strong>Core Achievements:</strong></p>
-          <ul>
-            <li *ngFor="let achievement of job.achievements">{{ achievement }}</li>
-          </ul>
+            <ul>
+              <li *ngFor="let responsibility of job.responsibilities">{{ responsibility }}</li>
+            </ul>
+            <p><strong>Core Achievements:</strong></p>
+            <ul>
+              <li *ngFor="let achievement of job.achievements">{{ achievement }}</li>
+            </ul>
         </div>
       </div>
 

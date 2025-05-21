@@ -20,6 +20,8 @@ export class ResumeComponent  implements OnInit {
     this.resumeService = resumeService;
   }
   ngOnInit():void {
+    setTimeout(()=>{
+
     this.resumeService.getResume().subscribe({
       next: (data: Resume) => {
         this.resume = data;
@@ -31,5 +33,8 @@ export class ResumeComponent  implements OnInit {
         this.loading = false;
       }
     });
+
+    }, 500);
+
   }
 }
