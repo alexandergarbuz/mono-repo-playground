@@ -27,10 +27,12 @@
             <ul>
               <li *ngFor="let responsibility of job.responsibilities">{{ responsibility }}</li>
             </ul>
+            <div *ngIf="job.achievements != undefined">
             <p><strong>Core Achievements:</strong></p>
             <ul>
               <li *ngFor="let achievement of job.achievements">{{ achievement }}</li>
             </ul>
+            </div>
         </div>
       </div>
 

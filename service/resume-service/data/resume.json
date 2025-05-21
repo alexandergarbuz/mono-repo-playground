@@ -13,20 +13,23 @@
         "startDate": "7/2024",
         "endDate": "5/2025",
         "responsibilities": [
-          "Developed and maintained a number of micro-services using Spring Boot and Oracle. Helped the team to migrate from ADFS (Active Directory Federation Service) to Azure AD; Participated in building POC for deploying services to GCP (Google Could Platform) utilizing Google Apigee platform as abstraction layer to provide access to backend service. Used S3 SDK to access and store objects in AWS storage;",
-          "Led successful adaptation of Agile development practices such as test driven development, pair programming, iterative development, and continuous integration. Used GitHub, Jenkins, and Gradle to implement continuous integration/continues deployment environment. Utilized Checkmarx and FOSSA to ensure code quality and security compliance. Developed a suite of automated functional/acceptance tests using Postman. Built performance/load tests using Apache JMeter. Ensured targeted test coverage using JaCoCo code coverage reports;",
-          "Maintained legacy Java web application utilizing Servlets, Velocity templates, jQuery, DB2 and IBM WebSphere Liberty server;",
-          "Actively participated in project planning and management, created estimates, and provided status reports to management. Planned, organized and led meetings and training sessions. Mentored less experienced developers, conducted design and code reviews, performed analysis for senior management;",
-          "Provided on-call support;"
-        ],
-        "achievements": [
-          "Built a number of automated performance tests using JMeter that helped monitor application performance after series of enhancements;",
-          "Trained a number of team members on how to follow agile practices;"
+          "Developed custom websites using JavaScript, Java 17, Spring Boot, Spring, Hibernate, JPA, Docker, Maven, GitHub, and MySQL",
+          "Implemented a continuous integration/continuous deployment (CI/CD) environment using Maven, Docker, and custom GitHub actions",
+          "Utilized AWS ECS, Route 53, and EC2 in conjunction with GitHub and DockerHub to set up development and production environments",
+          "Managed hosted versions of MySQL databases with AWS RDS",
+          "Monitored log files and set up performance monitoring alerts using AWS CloudWatch",
+          "Deployed static content, such as React front ends, using AWS Amplify",
+          "Implemented asynchronous email notifications with RabbitMQ",
+          "Enhanced visual appearance and provided customers with modern, responsive UIs using jQuery, Tailwind, and Bootstrap frameworks",
+          "Developed a mocking framework that simplified testing of the point of sale terminal application",
+          "Mentored team members on Java best practices, defined coding standards, created code review guidelines for the team",
+          "Actively participated in project planning and management, providing accurate estimates and status reports to management",
+          "Worked closely with QA Engineers to help them plan and execute test cases for the production releases"
         ]
       },
       {
         "name": "Ford",
-        "title": "Sr. Java Developer / Consultant",
+        "title": "Sr. Java Developer",
         "startDate": "8/2021",
         "endDate": "4/2024",
         "responsibilities": [
